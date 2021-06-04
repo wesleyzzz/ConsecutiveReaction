@@ -34,8 +34,8 @@ private:
   const VariableValue & _du_dot_du;
   Real _K_O;
   Real _sigma;
-  Function & _func_1;
-  Function & _func_2;
+  const Function & _func_1;
+  const Function & _func_2;
 };
 
 #endif

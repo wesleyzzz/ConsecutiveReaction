@@ -37,10 +37,10 @@ private:
   Real _K_O;
   Real _K_1;
   Real _sigma1;
-  Function & _func_1;
-  Function & _func_2;
-  Function & _func_3;
-  Function & _func_4;
+  const Function & _func_1;
+  const Function & _func_2;
+  const Function & _func_3;
+  const Function & _func_4;
 };
 
 #endif

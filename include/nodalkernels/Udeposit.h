@@ -31,9 +31,9 @@ private:
     Real _K_1;
   //const MaterialProperty<Real> & _K_O;
 
-  Function & _func_3;
+  const Function & _func_3;
  
-  Function & _func_4;
+  const Function & _func_4;
 
 };
 
